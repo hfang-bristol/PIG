@@ -1,0 +1,68 @@
+Package: PIG
+Type: Package
+Title: Priority Index for Glaucoma
+Version: 1.0.0
+Date: 2024-1-11
+Authors@R: c(person("Hai", "Fang", email="fh12355@rjh.com.cn", role=c("aut","cre")))
+Maintainer: Hai Fang <fh12355@rjh.com.cn>
+Depends: R (>= 4.3.1), igraph, ggplot2
+Imports: BiocGenerics, dplyr, forcats, GenomicRanges, ggnetwork, ggrepel, IRanges, magrittr, Matrix, methods, osfr, purrr, readr, stats, stringr, tibble, tidyr, XML, pbapply, curl, ggraph
+Suggests: coin, foreach, ggridges, grid, gridExtra, RColorBrewer, ROCR, ggupset, rtracklayer, Gviz, MASS, dnet, graphics, grDevices, S4Vectors, utils, ggbio, GenomeInfoDb, doParallel, fgsea, scales, supraHex, data.tree, jsonlite
+Description: The PIG package is developed in parallels with a shift from genetic findings to translational applications for glaucoma, a highly heritable blindness disease. The package features genetics-led and network-driven drug target prioritisation, a significant improvement to the priority index (Pi) approach.
+Collate:
+	 'ClassMethod-PIG.r'
+     'oRDS.r'
+     'oDefineNet.r'
+     'oIG2TB.r'
+     'oTB2IG.r'
+     'oPierSNPsAdv.r'
+     'oPierSNPs.r'
+     'oSNPscores.r'
+     'oSNP2nGenes.r'
+     'oSNPlocations.r'
+     'oSymbol2GeneID.r'
+     'oSNP2eGenes.r'
+     'oDefineQTL.r'
+     'oSNP2cGenes.r'
+     'oDefineRGB.r'
+     'oGR.r'
+     'oSparseMatrix.r'
+     'oSM2DF.r'
+     'oPierGenes.r'
+     'oPier.r'
+     'oRWR.r'
+     'oCheckParallel.r'
+     'oPierMatrix.r'
+     'oClassifyPerf.r'
+     'oClassifyComp.r'
+     'oHeatmap.r'
+     'oColormap.r'
+     'oPierManhattan.r'
+     'oPierGSEA.r'
+     'oGSEAdotplot.r'
+     'oRepurpose.r'
+     'oBicreate.r'
+     'oHEB.r'
+     'oSEA.r'
+     'oSEAextract.r'
+     'oSEAadv.r'
+     'oSEAdotplot.r'
+     'oDAGinduce.r'
+     'oSEAggraph.r'
+     'oGGraph.r'
+     'oBigraph.r'
+     'oNetInduce.r'
+     'oAddCoords.r'
+     'oLayout.r'
+     'oGGnetwork.r'
+     'oSEAforest.r'
+     'oSEAupset.r'
+     'oCombineNet.r'
+     'oPierSubnet.r'
+     'oSubneterGenes.r'
+     'oSEAballoon.r'
+     'oAUCurve.r'
+     'oTIG.r'
+     'oBiproject.r'
+License: GPL-2
+biocViews: SystemsBiology
