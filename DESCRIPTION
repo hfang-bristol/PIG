@@ -2,10 +2,10 @@ Package: PIG
 Type: Package
 Title: Priority Index for Glaucoma
 Version: 1.0.0
-Date: 2024-1-11
+Date: 2024-2-5
 Authors@R: c(person("Hai", "Fang", email="fh12355@rjh.com.cn", role=c("aut","cre")))
 Maintainer: Hai Fang <fh12355@rjh.com.cn>
-Depends: R (>= 4.3.1), igraph, ggplot2
+Depends: R (>= 4.3.2), igraph, ggplot2
 Imports: BiocGenerics, dplyr, forcats, GenomicRanges, ggnetwork, ggrepel, IRanges, magrittr, Matrix, methods, osfr, purrr, readr, stats, stringr, tibble, tidyr, XML, pbapply, curl, ggraph
 Suggests: coin, foreach, ggridges, grid, gridExtra, RColorBrewer, ROCR, ggupset, rtracklayer, Gviz, MASS, dnet, graphics, grDevices, S4Vectors, utils, ggbio, GenomeInfoDb, doParallel, fgsea, scales, supraHex, data.tree, jsonlite
 Description: The PIG package is developed in parallels with a shift from genetic findings to translational applications for glaucoma, a highly heritable blindness disease. The package features genetics-led and network-driven drug target prioritisation, a significant improvement to the priority index (Pi) approach.
