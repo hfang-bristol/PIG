@@ -2,7 +2,7 @@ Package: PIG
 Type: Package
 Title: Priority Index for Glaucoma
 Version: 1.0.0
-Date: 2024-2-5
+Date: 2024-2-15
 Authors@R: c(person("Hai", "Fang", email="fh12355@rjh.com.cn", role=c("aut","cre")))
 Maintainer: Hai Fang <fh12355@rjh.com.cn>
 Depends: R (>= 4.3.2), igraph, ggplot2
@@ -64,5 +64,8 @@ Collate:
      'oAUCurve.r'
      'oTIG.r'
      'oBiproject.r'
+     'oSEAladder.r'
+     'oAttack.r'
+     'oUpsetAdv.r'
 License: GPL-2
 biocViews: SystemsBiology
